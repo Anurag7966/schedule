@@ -22,12 +22,7 @@ __export(deploy_exports, {
   handler: () => handler
 });
 module.exports = __toCommonJS(deploy_exports);
-var handler = async (event) => {
-  return {
-    statusCode: 200,
-    body: "Hello !!!"
-  };
-};
+var handler = sche;
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
   handler

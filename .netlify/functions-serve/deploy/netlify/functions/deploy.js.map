@@ -1,8 +1,8 @@
 {
   "version": 3,
   "sources": ["netlify/functions/deploy.ts"],
-  "sourceRoot": "C:/Users/hp/AppData/Local/Temp/tmp-27064-jffgYmOOcWtm",
-  "sourcesContent": ["\r\n\r\n\r\nexport const handler= async (event:any)=>{\r\n\r\n\r\n    return {\r\n        statusCode:200,\r\n        body:\"Hello !!!\"\r\n    };\r\n};"],
-  "mappings": ";;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAGO,IAAM,UAAS,OAAO,UAAY;AAGrC,SAAO;AAAA,IACH,YAAW;AAAA,IACX,MAAK;AAAA,EACT;AACJ;",
+  "sourceRoot": "C:/Users/hp/AppData/Local/Temp/tmp-25556-ahwpdI9c2YxO",
+  "sourcesContent": ["\r\nimport axios from \"axios\";\r\nexport const handler= sche;"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAEO,IAAM,UAAS;",
   "names": []
 }
