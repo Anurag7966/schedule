@@ -6,11 +6,12 @@ export const handler= schedule("*/5 * * * *",async (event:any)=>{
     
     try {
         const response=await axios.get("https://main--tangerine-bombolone-d7b594.netlify.app/api/checker")
-
+        const a=JSON.stringify(response.data);
+        console.log(a);
+        
         return {
             statusCode: 200,
-            
-            body:JSON.stringify(response.data)
+            body:a
             
             
         };
